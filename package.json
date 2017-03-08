@@ -1,0 +1,22 @@
+{
+  "name": "pdm-test",
+  "version": "1.0.0",
+  "description": "my first full npm valid module on git hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diazmazzaro/pdm-test.git"
+  },
+  "keywords": [
+    "pdm"
+  ],
+  "author": "Pablo Andres Diaz Mazzaro <diazmazzaro@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diazmazzaro/pdm-test/issues"
+  },
+  "homepage": "https://github.com/diazmazzaro/pdm-test#readme"
+}
