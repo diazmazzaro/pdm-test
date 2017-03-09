@@ -4,7 +4,7 @@
   "description": "my first full npm valid module on git hub",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/diazmazzaro/pdm-test/issues"
   },
-  "homepage": "https://github.com/diazmazzaro/pdm-test#readme"
+  "homepage": "https://github.com/diazmazzaro/pdm-test#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
 }
