@@ -1,6 +1,6 @@
 {
   "name": "pdm-test",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "my first full npm valid module on git hub",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,12 @@
     "pdm"
   ],
   "author": "Pablo Andres Diaz Mazzaro <diazmazzaro@gmail.com>",
-  "license": "ISC",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/diazmazzaro/pdm-test/issues"
   },
